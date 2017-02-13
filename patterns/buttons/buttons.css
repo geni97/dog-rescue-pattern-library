@@ -1,0 +1,31 @@
+.btn {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  border-radius: 0;
+
+  color: #fff;
+}
+
+.btn-other {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  border-radius: 0;
+
+  color: #fff;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: var(--color-primary);
+  border-radius: 0;
+
+  color: var(--color-primary);
+}
+
+.btn-ghost-other {
+  background-color: transparent;
+  border-color: var(--color-secondary);
+  border-radius: 0;
+
+  color: var(--color-secondary);
+}
