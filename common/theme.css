@@ -10,3 +10,59 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #a5cf67;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #0fb189;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: .8em;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: .7em;
+  font-weight: normal;
+}
+
+a {
+  color: #91d0bb;
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ol li {
+  list-style-type: none;
+}
+
+blockquote {
+  font-weight: 600;
+}
+
+cite {
+  font-weight: normal;
+}
+
+mark {
+  background-color: #cee2a6;
+}
