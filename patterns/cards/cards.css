@@ -29,3 +29,8 @@ img {
   background-color: var(--color-accent);
   border-color: var(--color-accent);
 }
+
+.btn:focus {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+}
