@@ -46,3 +46,20 @@
 
   color: #fff;
 }
+
+.btn:focus {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.btn-other:focus {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+}
+
+.btn-ghost:focus {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+
+  color: #fff;
+}

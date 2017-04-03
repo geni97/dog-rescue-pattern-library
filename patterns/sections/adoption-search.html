@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Adoption Search</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+  <link href="sections.css" rel="stylesheet">
+</head>
+<body>
+
+  <form class="max-length island" method="post" novalidate>
+    <h3 class="push-0">
+      <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+    </h3>
+  </div>
+
+  <div class="push-1-2">
+    <label for="search">Search</label>
+    <input id="search">
+  </div>
+
+  <div class="push-1-2">
+    <label for="drop-down">Breed</label>
+    <select id="drop-down" required aria-describedby="name-error">
+      <option value=""> </option>
+      <option value="option1">option 1</option>
+      <option value="option2">option 2</option>
+      <option value="option3">option 3</option>
+    </select>
+    <p class="error-message milli island-1-4 push-0" id="name-error">
+      <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+      <span class="icon-label">Please choose an option.</span>
+    </p>
+  </div>
+
+  <div class="push-1-2">
+    <label for="drop-down">Age</label>
+    <select id="drop-down" required aria-describedby="name-error">
+      <option value=""> </option>
+      <option value="option1">option 1</option>
+      <option value="option2">option 2</option>
+      <option value="option3">option 3</option>
+    </select>
+    <p class="error-message milli island-1-4 push-0" id="name-error">
+      <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+      <span class="icon-label">Please choose an option.</span>
+    </p>
+  </div>
+
+  <div class="push-1-2">
+    <label for="drop-down">Gender</label>
+    <select id="drop-down" required aria-describedby="name-error">
+      <option value=""> </option>
+      <option value="option1">male</option>
+      <option value="option2">female</option>
+    </select>
+    <p class="error-message milli island-1-4 push-0" id="name-error">
+      <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+      <span class="icon-label">Please choose an option.</span>
+    </p>
+  </div>
+
+  <div class="pad-t-1-2">
+    <button class="btn" type="submit">Submit</button>
+  </div>
+
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+
+</body>
+</html>
