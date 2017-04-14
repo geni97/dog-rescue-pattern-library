@@ -6,4 +6,5 @@ p {
 
 footer {
 background-color: var(--color-primary);
+margin-top: 3em;
 }
