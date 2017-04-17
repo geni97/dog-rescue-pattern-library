@@ -41,12 +41,14 @@
     </nav>
   </header>
 
-  <h1>Application</h1>
+  <h1 class="yotta">Application</h1>
 
   <form class="max-length island" method="post" novalidate>
     <h3 class="push-0">
       <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
     </h3>
+
+    <h2 class="tera">Personal Information</h2>
 
     <div class="push-1-2">
       <label for="name">Name</label>
@@ -63,20 +65,6 @@
       <p class="error-message milli island-1-4 push-0" id="name-error">
         <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
         <span class="icon-label">Please provide a last name.</span>
-      </p>
-    </div>
-
-    <div class="push-1-2">
-      <label for="drop-down">Name of dog you want to adopt</label>
-      <select id="drop-down" required aria-describedby="name-error">
-        <option value=""> </option>
-        <option value="option1">Fluffy</option>
-        <option value="option2">Luna</option>
-        <option value="option3">Biscuit</option>
-      </select>
-      <p class="error-message milli island-1-4 push-0" id="name-error">
-        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
-        <span class="icon-label">Please choose an option.</span>
       </p>
     </div>
 
@@ -139,3 +127,319 @@
         <span class="icon-label">Please provide a postal code.</span>
       </p>
     </div>
+
+    <div class="push-1-2">
+      <label for="name">Email</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide an email address.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Telephone number</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a phone number.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="drop-down">Gender</label>
+      <select id="drop-down" required aria-describedby="name-error">
+        <option value=""> </option>
+        <option value="option1">Male</option>
+        <option value="option2">Female</option>
+        <option value="option3">Other</option>
+      </select>
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please choose a gender.</span>
+      </p>
+    </div>
+
+    <h2 class="tera pad-t-2">Pet and Home Information</h2>
+
+    <div class="push-1-2">
+      <label for="drop-down">Name of dog you want to adopt</label>
+      <select id="drop-down" required aria-describedby="name-error">
+        <option value=""> </option>
+        <option value="option1">Fluffy</option>
+        <option value="option2">Luna</option>
+        <option value="option3">Biscuit</option>
+      </select>
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please choose an option.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2 pad-t-1-2">
+      <p>Have you owned a dog before?</p>
+      <input type="radio" id="agree" required aria-describedby="agree-error">
+      <label for="agree">Yes</label>
+      <p class="error-message milli island-1-4 push-0" id="agree-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please choose an option.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2 pad-t-1-2">
+      <input type="radio" id="agree" required aria-describedby="agree-error">
+      <label for="agree">No</label>
+      <p class="error-message milli island-1-4 push-0" id="agree-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please choose an option.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2 pad-t-1-2">
+      <p>Do you own any other pets?</p>
+      <input type="radio" id="agree" required aria-describedby="agree-error">
+      <label for="agree">Yes</label>
+      <p class="error-message milli island-1-4 push-0" id="agree-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please choose an option.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2 pad-t-1-2">
+      <input type="radio" id="agree" required aria-describedby="agree-error">
+      <label for="agree">No</label>
+      <p class="error-message milli island-1-4 push-0" id="agree-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please choose an option.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">If yes, what type?</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a type of pet.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="drop-down">Home environment</label>
+      <select id="drop-down" required aria-describedby="name-error">
+        <option value=""> </option>
+        <option value="option1">City</option>
+        <option value="option2">Suburban</option>
+        <option value="option3">Country</option>
+      </select>
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please choose an option.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Number of people in home:</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a number of people.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2 pad-t-1-2">
+      <p>Will your dog be kept indoors of outdoors?</p>
+      <input type="radio" id="agree" required aria-describedby="agree-error">
+      <label for="agree">Indoors</label>
+      <p class="error-message milli island-1-4 push-0" id="agree-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please choose an option.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2 pad-t-1-2">
+      <input type="radio" id="agree" required aria-describedby="agree-error">
+      <label for="agree">Outdoors</label>
+      <p class="error-message milli island-1-4 push-0" id="agree-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please choose an option.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Who will be the primary caregiver?</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a name and last name.</span>
+      </p>
+    </div>
+
+    <h2 class="tera pad-t-2">References</h2>
+
+    <h3 class="mega pad-t">Reference #1</h3>
+    <div class="push-1-2">
+      <label for="name">Name</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a name.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Last Name</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a last name.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Telephone Number</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a telephone number.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Email</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide an email address.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Relationship</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a relationship.</span>
+      </p>
+    </div>
+
+    <h3 class="mega pad-t-2">Reference #2</h3>
+    <div class="push-1-2">
+      <label for="name">Name</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a name.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Last Name</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a last name.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Telephone Number</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a telephone number.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Email</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide an email address.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Relationship</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a relationship.</span>
+      </p>
+    </div>
+
+    <h3 class="mega pad-t-2">Reference #3</h3>
+    <div class="push-1-2">
+      <label for="name">Name</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a name.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Last Name</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a last name.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Telephone Number</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a telephone number.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Email</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide an email address.</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="name">Relationship</label>
+      <input id="name" required aria-describedby="name-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"/></svg></i>
+        <span class="icon-label">Please provide a relationship.</span>
+      </p>
+    </div>
+
+    <p class="pad-t-2 milli">I certify that the information provided on this form is true & correct and that nothing of relevance has been omitted. I realize that if any of the information I have provided is inaccurate, misleading, or significant omissions have been made, this may result in my application being denied.</p>
+
+    <p class="milli">I grant my permission for a LOYAL Rescue Inc. volunteer to contact all stated personal references and veterinarian(s).</p>
+
+    <p class="milli">I am financially and physically able to care for this animal. I understand that proper food, water, shelter, and veterinary care is necessary and may be costly, and I am able to meet these requirements.</p>
+
+    <p class="milli">I am aware that Home Visits are mandatory prior to approval for ALL applicants and are also made on a random basis following adoption.</p>
+
+    <p class="milli">If, even after an adoption has taken place, it is discovered that information contained in this application to be false or misleading, LOYAL Rescue Inc. retains the right to deny your application or remove the animal from your premises without a refund of monies paid.</p>
+
+    <p class="milli">LOYAL Rescue Inc. reserves the right to deny any application due to the primary interest being the best interest of the animal.</p>
+
+    <div class="push-1-2 pad-t-1-2">
+      <input type="checkbox" id="agree" required aria-describedby="agree-error">
+      <label for="agree" class="milli">I Agree to the above statements and I certify that I am 18 years or older</label>
+      <p class="error-message milli island-1-4 push-0" id="agree-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please agree.</span>
+      </p>
+    </div>
+
+  </form>
+
+  <footer>
+    <p><small>LOYAL Rescue Inc. © 2005-2017</small></p>
+  </footer>
+
+</body>
+</html>
