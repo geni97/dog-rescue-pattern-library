@@ -17,14 +17,13 @@
 }
 
 p {
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
 @media only screen and (min-width: 38em) {
 
   p {
-    width: 30em
+
   }
 
 }
@@ -32,7 +31,7 @@ p {
 @media only screen and (min-width: 60em) {
 
   p {
-    width: 30em
+
   }
 
 }
@@ -40,7 +39,7 @@ p {
 @media only screen and (min-width: 60em) {
 
   p {
-    width: 30em
+
   }
 
 }
