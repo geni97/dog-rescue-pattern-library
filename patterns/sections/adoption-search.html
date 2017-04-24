@@ -14,60 +14,63 @@
 <body>
 
   <form class="max-length island" method="post" novalidate>
-    <h3 class="push-0">
-      <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-    </h3>
-  </div>
+    <div>
+      <h3 class="push-0">
+        <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+      </h3>
+    </div>
 
-  <div class="push-1-2">
-    <label for="search">Search</label>
-    <input id="search">
-  </div>
+    <div class="push-1-2">
+      <label for="search">Search</label>
+      <input id="search">
+    </div>
 
-  <div class="push-1-2">
-    <label for="drop-down">Breed</label>
-    <select id="drop-down" required aria-describedby="name-error">
-      <option value=""> </option>
-      <option value="option1">option 1</option>
-      <option value="option2">option 2</option>
-      <option value="option3">option 3</option>
-    </select>
-    <p class="error-message milli island-1-4 push-0" id="name-error">
-      <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-      <span class="icon-label">Please choose an option.</span>
-    </p>
-  </div>
+    <div class="push-1-2">
+      <label for="drop-down">Breed</label>
+      <select id="drop-down" required aria-describedby="name-error">
+        <option value="">Select</option>
+        <option value="option1">option 1</option>
+        <option value="option2">option 2</option>
+        <option value="option3">option 3</option>
+      </select>
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please choose an option.</span>
+      </p>
+    </div>
 
-  <div class="push-1-2">
-    <label for="drop-down">Age</label>
-    <select id="drop-down" required aria-describedby="name-error">
-      <option value=""> </option>
-      <option value="option1">option 1</option>
-      <option value="option2">option 2</option>
-      <option value="option3">option 3</option>
-    </select>
-    <p class="error-message milli island-1-4 push-0" id="name-error">
-      <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-      <span class="icon-label">Please choose an option.</span>
-    </p>
-  </div>
+    <div class="push-1-2">
+      <label for="age">Age</label>
+      <select id="age" required aria-describedby="name-error">
+        <option value="">Select</option>
+        <option value="option1">option 1</option>
+        <option value="option2">option 2</option>
+        <option value="option3">option 3</option>
+      </select>
+      <p class="error-message milli island-1-4 push-0" id="age-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please choose an option.</span>
+      </p>
+    </div>
 
-  <div class="push-1-2">
-    <label for="drop-down">Gender</label>
-    <select id="drop-down" required aria-describedby="name-error">
-      <option value=""> </option>
-      <option value="option1">male</option>
-      <option value="option2">female</option>
-    </select>
-    <p class="error-message milli island-1-4 push-0" id="name-error">
-      <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-      <span class="icon-label">Please choose an option.</span>
-    </p>
-  </div>
+    <div class="push-1-2">
+      <label for="gender">Gender</label>
+      <select id="gender" required aria-describedby="name-error">
+        <option value="">Select</option>
+        <option value="option1">male</option>
+        <option value="option2">female</option>
+      </select>
+      <p class="error-message milli island-1-4 push-0" id="gender-error">
+        <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please choose an option.</span>
+      </p>
+    </div>
 
-  <div class="pad-t-1-2">
-    <button class="btn" type="submit">Submit</button>
-  </div>
+    <div class="pad-t-1-2">
+      <button class="btn" type="submit">Submit</button>
+    </div>
+
+  </form>
 
   <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 

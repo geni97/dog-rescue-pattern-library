@@ -6,7 +6,6 @@ header {
 }
 
 ul {
-  font-family: "Railway" sans-serif;
   text-align: center;
   list-style-type: none;
   padding-left: 1em;
@@ -15,7 +14,7 @@ ul {
 }
 
 li {
-  padding-bottom: 0.3em;
+  padding-bottom: .3em;
   display: inline-block;
 }
 
